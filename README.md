@@ -1,6 +1,16 @@
 # Planejador de Caminhos
 
+**C++17 · Algoritmo A* · Grafos**
+
 Aplicação de terminal em C++ que procura o caminho mais curto entre dois pontos de um mapa com o algoritmo A*. O programa lê os pontos e as rotas de arquivos de texto e usa a distância geográfica até o destino como heurística.
+
+<p align="center">
+  <img src="docs/img/trecho-br101.png" alt="Trecho de 7,8 km da BR-101 ligando os pontos 1 e 1A nos dados do projeto" width="880">
+</p>
+
+Mapa esquemático baseado em [pontos.txt](pontos.txt) e [rotas.txt](rotas.txt). O trecho destacado liga os dois pontos do exemplo de execução.
+
+## Funcionalidades
 
 - `pontos.txt` contém identificadores, nomes e coordenadas.
 - `rotas.txt` descreve as ligações e o comprimento de cada trecho.
